@@ -1,0 +1,10 @@
+{
+  "name": "spotify-plex-sync",
+  "version": "1.0.0",
+  "description": "Synchronize music traks and playlists from spotify to plex.",
+  "main": "main.js",
+  "repository": "https://github.com/KJBurnett/spotify-plex-sync",
+  "author": "Kyler Burnett",
+  "license": "None",
+  "private": false
+}
