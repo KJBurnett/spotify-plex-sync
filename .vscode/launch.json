@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "[DEBUG] Create Plex Playlist From Spotify Playlist",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PLEX_URL": "http://yourmachine:32400",
+                "PLEX_TOKEN": "",
+                "SPOTIFY_URIS": "spotify:user:thecoyote1824:playlist:300s8mQuR1019ob4SJ7GBm",
+                "SPOTIPY_CLIENT_ID": "",
+                "SPOTIPY_CLIENT_SECRET": ""
+            }
+        }
+    ]
+}
